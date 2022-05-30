@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+/* import React, { Component } from 'react';
 import { Alert, Button, TextInput, View, StyleSheet, Text } from 'react-native';
 
 
@@ -60,4 +60,19 @@ const styles = StyleSheet.create({
     borderColor: 'black',
     marginBottom: 10,
   },
-});
+}); */
+
+
+
+
+
+import React from 'react'
+
+import { Alert, Button, TextInput, View, StyleSheet, Text } from 'react-native';
+const App = () => {
+  return(
+    <View>
+      <Text>Hello from functional component</Text>
+    </View>
+  )
+}
